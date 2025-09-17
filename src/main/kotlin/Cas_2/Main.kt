@@ -7,7 +7,7 @@ fun main() {
     clients.add("Bobo")
     clients.add("mal")
     println(clients.removeFirst())
-    println(clients.first())// Regarde le premier élément inséré (sans le retirer)
+    println(clients.first())
 
 
     while (clients.isNotEmpty()) {
