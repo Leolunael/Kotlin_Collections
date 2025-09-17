@@ -2,12 +2,12 @@ package Cas_1
 
 
 fun main() {
-    val inscrits = sortedSetOf("Zelda", "Mario", "Luigi", "Peach", "Mario", "Zelda")
+    val inscrits = sortedSetOf("Do", "Ré", "Mi", "Fa", "Ré", "Do")
 
     println("Liste des participants (triée) :")
     println(inscrits)
 
-    val pseudoRecherche = "Luigi"
+    val pseudoRecherche = "Mi"
     if (pseudoRecherche in inscrits) {
         println("$pseudoRecherche est inscrit.")
     } else {
